@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    padding-top: 70px;
+    ;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto 50px;
+
+}
+.d-flex{
+    display: flex ;
+
+}
+.justify-content-center{
+    justify-content: center; 
+}
+.align-items-center{
+    align-items: center;
+}
+.bg-dark{
+    background-color: black;
+}
+.text-white{
+    background-color: gainsboro;
+}
+
+.header {
+    box-shadow: 0 1px 7px 1px grey;
+    min-height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.508);
+
+}
+
+.logo {
+    width: 100px;
+}
+
+.menu {
+    display: flex;
+    gap: 5px;
+}
+
+.menu__link {
+    color: rgb(255, 0, 0);
+    background-color: rgb(0, 0, 255);
+    padding: 5px 15px;
+    border-radius: 5px;
+    transition: .4s;
+}
+
+.menu__link:hover {
+    color: rgb(255, 68, 0);
+    background-color: rgb(0, 102, 255);
+}
+
+.post {
+    margin-bottom: 60px;
+
+}
+
+
+.post__img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.post__title {
+    margin-bottom: 20px;
+    font-size: 42px;
+    text-align: center;
+    color: rgb(255, 0, 0);
+}
+
+.post__body {
+    font-size: 18px;
+    text-align: justify;
+    color: rgb(55, 0, 255);
+}
+.footer{
+    min-height: 80px;
+}
